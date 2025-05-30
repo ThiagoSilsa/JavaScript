@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+}
+
+.lutador{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    padding: 10px;
+    border-radius: 25px;
+    width: 250px;
+    background-color: violet;
+}
