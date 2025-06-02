@@ -1,0 +1,81 @@
+*{
+    background-color: rgb(53, 52, 52);
+    color: aliceblue;
+}
+.quiz, main{
+
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sumiu{
+    display: none;
+}
+
+#pontos{
+    background-color: white;
+    color: black;
+
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+
+    text-align: center;
+    height: 2em;
+    width: 110%;
+
+    border-radius: 7.5px;
+    box-shadow: 0px 0px 12px 1px  rgb(61, 61, 255);
+}
+
+.quiz{
+    padding: 25px;
+    max-width: 350px;
+    width: 60%;
+
+    height: 350px;
+
+    border-radius: 15px;
+    border: 1.5px solid white;
+}
+
+.numQuestao{
+    font-weight: bolder;
+
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    
+
+    width: 2em;
+    height: 2em;
+    background-color: rgb(61, 61, 255);
+    border-radius: 50%;
+}
+
+.btn1, .btn2, .btn3{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+
+    font-weight: bold;    
+    font-size: 1em;
+
+    height: 15%;
+    width: 250px;
+
+}
+.btn1:hover, .btn2:hover, .btn3:hover{
+    background-color:rgb(61, 61, 255) ;
+    cursor: pointer;
+}
+
+
+#txtQuestao{
+    height: 30%;
+}

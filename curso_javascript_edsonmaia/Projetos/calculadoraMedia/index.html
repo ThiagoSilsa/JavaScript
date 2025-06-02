@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Calculadora de Média</h1>
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="nota1">Nota 1:</label>
+                <input 
+                    type="number"
+                    name="nota1"
+                    id="nota1"
+                    class="notas"
+
+                    step="0.1"
+                    min="0"
+                    max="10"
+
+                    placeholder="Nota1"
+                    autofocus
+                    required
+
+                    onblur="validarNumero(this)"
+                >
+            </div>
+            <div class="form-group">
+                <label for="nota2">Nota 2:</label>
+                <input 
+                    type="number"
+                    name="nota2"
+                    id="nota2"
+                    class="notas"
+
+                    step="0.1"
+                    min="0"
+                    max="10"
+
+                    placeholder="Nota2"
+                    autofocus
+                    required
+
+                    onblur="validarNumero(this)"
+                >
+            </div>
+            <div class="form-group">
+                <button 
+                    class="botao"
+                    id="btnlimpar"
+                    type="reset"
+                    >Limpar</button>
+                <button 
+                    class="botao"
+                    id="btnenviar"
+                    type="submit"
+                    >Calcular</button>
+            </div>
+            <div class="form-group">
+                <p>Média:</p>
+                <input 
+                    type="number"
+                    class="resultado"
+                    id="resultadomedia"
+                    value="0.0"
+                    disabled
+                    >
+            </div>
+        </form>
+        <div class="situacao">
+            <input 
+                id="situacao"
+                type="text"
+                class=""
+                disabled
+                placeholder="Situação final!">
+        </div>
+        <div class=""
+            id="aviso"
+        ></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

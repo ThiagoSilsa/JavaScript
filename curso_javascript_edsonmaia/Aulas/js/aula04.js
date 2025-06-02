@@ -1,6 +1,7 @@
 /* Aula 04 Funcoes ou metodos no Js */
 
 let titulo = document.querySelector('h1')
+// Alterando título
 titulo.textContent = 'Funções no JS'
 let box = document.querySelectorAll('box')
 
@@ -47,14 +48,14 @@ titulo.addEventListener('click', function () {
     console.log('Clicou no título')
 })
 
-/* Arrow Functions ES6 2015 em diante */
+// /* Arrow Functions ES6 2015 em diante */
 
 const olaMundoArrow = () => document.write("Olá mundo!!!!!!!!")
 
-// nao precisa usar a palavra function
-// nao precisa usar a palavra return
-// nao se usa nome na funcao
-// nao precisa colocar { } se for so uma instrucao
+// // nao precisa usar a palavra function
+// // nao precisa usar a palavra return
+// // nao se usa nome na funcao
+// // nao precisa colocar { } se for so uma instrucao
 const olaMundo2Arrow = () => '<p>Olá mundo com arrow function</p>'
 
 olaMundoArrow()

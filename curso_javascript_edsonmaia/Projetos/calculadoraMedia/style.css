@@ -1,0 +1,35 @@
+
+*{
+    background-color: azure;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.aprovado{
+    background-color: green;
+    color: white;
+}
+.reprovado{
+    background-color: red;
+    color: white;
+    
+}
+.recuperacao{
+    background-color: orange;
+    color: white;
+}
+.limpar{
+    background-color: white;
+    color: black;
+    
+}
+.botao:hover{
+    cursor: pointer;
+    border: 3px solid black;
+}
