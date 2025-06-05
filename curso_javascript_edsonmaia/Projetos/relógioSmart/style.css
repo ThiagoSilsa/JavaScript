@@ -1,0 +1,28 @@
+
+
+
+
+*{
+    font-family: 'Courier New', Courier, monospace
+}
+
+#telaSmart{
+    text-align: center;
+
+    height: 225px;
+    width: 225px;
+    color: aliceblue;
+    background-color: black;
+
+    border-radius: 25px;
+}
+
+#telaSmart{
+    font-weight: bolder;
+}
+#hSmart, #mSmart{
+    font-size: 2em;
+}
+#sSmart{
+    font-size: 1em;
+}

@@ -1,0 +1,22 @@
+{
+    "aliens":[
+        {
+            "nome" : "Massa Cinzenta",
+            "planeta" : "Galvan Prime",
+            "especie" : "Galvaniano",
+            "foto" : "massaCinzenta.png"
+        },
+        {
+            "nome" : "Quatro Braços",
+            "planeta" : "Khoros",
+            "especie" : "Tetramando",
+            "foto" : "quatroBracos.png"
+        },
+        {
+            "nome" : "Enormossauro",
+            "planeta" : "Terradino",
+            "especie" : "Vaxasauriano",
+            "foto" : "Enormossauro.webp"
+        }
+    ]
+}
