@@ -1,0 +1,146 @@
+
+
+:root{
+    ---cor1 : #D7C0D0;
+    ---cor2 : #F7C7DB;
+    ---cor3 : #F79AD3;
+    ---cor4 : #C86FC9;
+    ---cor5 : #8E518D;
+    
+    
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+}
+header p{
+    font-size: 2em;
+    text-shadow: 1px 1px  var(---cor5);
+}
+header h1{
+    color: var(---cor5);
+}
+
+
+body{
+    background-color: var(---cor1);
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;  
+    margin: 0;   
+}
+
+main{
+    width: 80vw;
+    min-width: 350px;
+    max-width: 650px;
+    
+    height: 80vh;
+    min-height: 450px;
+    
+    background-color: var(---cor3);
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;  
+    margin: 0;  
+    
+    border-radius: 25px;
+    
+    box-shadow: 2px 2px 2px var(---cor5);
+}
+
+
+#divInfo{
+    height: 3em;
+    width: 65%;
+    background-color: white;
+    margin-top: 25px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+    border: 2px groove var(---cor5);
+    border-radius: 25px;
+}
+#info {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: var(---cor5);
+
+    text-align: center;
+}
+
+main input{
+    text-align: center;
+    
+    background-color: white;
+    
+    margin-top: 25px;
+    width: 85%;
+    height: 3em;
+    
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+main input:focus{
+    background-color: var(---cor2);
+    color: white;
+    text-shadow: 1px 1px 2px var(---cor5);
+}
+#tarefasContainer{
+    margin-top: 25px;
+    /* background-color: #fff; */
+    width: 85%;
+
+
+    height: 75%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.tarefa{
+    background-color: white;
+    width: 100%;  
+
+    display: flex;
+    flex-flow: row;
+    justify-content:space-between;
+    align-items: center;
+
+    border: 1px solid black;
+}
+
+.tarefa input{
+    margin-left: 5px ;
+    margin-top: 0px;
+    width: 25px;
+}
+.tarefa button{
+    text-decoration: none;
+
+
+    background-color: var(---cor4);
+    height: 25px;
+    margin-right: 10px ;
+}
+
+
+.riscado{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
